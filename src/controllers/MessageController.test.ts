@@ -14,7 +14,7 @@ describe('MessageController', () => {
 
     expect(response.state.status).toBe(200)
     expect(response.state.json).toEqual({
-      message: 'Wellcome to TestsAPI'
+      message: 'Wellcome to OurAPI'
     })
   })
 })

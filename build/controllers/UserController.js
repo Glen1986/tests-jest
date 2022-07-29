@@ -16,7 +16,7 @@ class UserController {
         return __awaiter(this, void 0, void 0, function* () {
             const { name, email } = request.body;
             if (name.length < 1 || email.length < 1) {
-                return response.status(400).json({});
+                return response.status(400);
             }
             const userService = new UserService_1.UserService({ name, email });
             try {
