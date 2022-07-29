@@ -13,7 +13,7 @@ exports.MessageController = void 0;
 class MessageController {
     handle(request, response) {
         return __awaiter(this, void 0, void 0, function* () {
-            return response.status(200).json({ message: 'Wellcome to TestsAPI' });
+            return response.status(200).json({ message: 'Wellcome to OurAPI' });
         });
     }
 }
